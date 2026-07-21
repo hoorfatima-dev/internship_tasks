@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'main.dart';
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});
-
   @override
   State<SignupScreen> createState() => _SignupScreenState();
 }
@@ -163,8 +162,6 @@ class _SignupScreenState extends State<SignupScreen> {
                   },
                 ),
                 const SizedBox(height: 18),
-
-                // --- Confirm password (shares the same obscure toggle) ---
                 const Text('Confirm Password',
                     style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -191,8 +188,6 @@ class _SignupScreenState extends State<SignupScreen> {
                   },
                 ),
                 const SizedBox(height: 24),
-
-                // --- Signup button (loading state from AuthProvider) ---
                 ElevatedButton(
                   onPressed:
                       auth.isLoading ? null : () => _handleSignup(auth),
@@ -208,7 +203,6 @@ class _SignupScreenState extends State<SignupScreen> {
                       : const Text('Sign Up'),
                 ),
                 const SizedBox(height: 24),
-
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
