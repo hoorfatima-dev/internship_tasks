@@ -42,8 +42,7 @@ Signup
 |
 | 
 !
-[Login Screen]
-(screenshots/LoginUI.png) 
+[Login Screen](screenshots/LoginUI.png) 
 | 
 !
 [Signup Screen](screenshots/SignIn.png) 
