@@ -52,7 +52,7 @@ It's provided once at the top of the app via `ChangeNotifierProvider`, and both 
 
 # Task 2: Recipe Finder App (Flutter + TheMealDB API)
 
-A Flutter app that lets users search for a dish by name and fetches its recipe details — ingredients, instructions, and image — using the free TheMealDB API.
+A Flutter app that lets users search for a dish by name and fetches its recipe details , ingredients, instructions, and image ,using the free TheMealDB API.
 
 ## Features
 
@@ -65,11 +65,6 @@ A Flutter app that lets users search for a dish by name and fetches its recipe d
 - Flutter (Dart)
 - HTTP package
 - TheMealDB API
-
-## Getting Started
-
-1. Get dependencies: `flutter pub get`
-2. Run the app: `flutter run`
 
 ## Screenshots
 
